@@ -1,4 +1,4 @@
-# Discord Recolor, but Blurple
+# Discord Recolor: Blurple
 
 [Discord Recolor](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor) ¹ was originally created by DevilBro, and I made 2 themes in 1 file with it:
 
