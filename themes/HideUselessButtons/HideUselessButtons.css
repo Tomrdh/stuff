@@ -1,0 +1,140 @@
+/*
+
+HIDDEN:
+
+Chat Window         - New Server Basic Tutorials
+
+Chat Bar (might not - Nitro Gift
+work correctly)     - Gif picker
+                    - Emoji picker
+
+Top Bar             - Help button
+                    - Open Logs
+                    
+Settings            - My Account and other things in sidebar
+                    - Same for settings contextmenu
+
+SHORTCUTS:
+
+Ctrl + E            : Emoji picker
+Ctrl + G            : Gif picker
+
+Ctrl + Shift + H    : Get help
+
+Ctrl + P            : Pins
+Ctrl + U            : Members list
+
+Ctrl + M (default)  : Open Logs
+
+Ctrl + R            : Reload
+Ctrl + /            : All shortcuts
+
+*/
+
+
+/* Nitro Gift */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > button.buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj {
+    display: none;
+}
+
+/* Gif picker */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(3) {
+    display: none;
+}
+
+/* Emoji picker */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div:nth-child(1) > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div:nth-child(4) > button {
+    display: none;
+}
+
+/* Same but for DMs */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > div > button,
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > button.buttonWrapper-1ZmCpA.button-38aScr {
+    display: none;
+}
+
+/* Show translate button */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > div > main > form > div > div.scrollableContainer-2NUZem.webkit-HjD9Er > div > div.buttons-3JBrkn > button:nth-child(1) {
+    display: block !important;
+}
+
+/* Get Help */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.toolbar-1t6TWx > a, #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.container-1D34oG > section > div.toolbar-1t6TWx > a {
+    display: none;
+}
+
+/* Video Call */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.toolbar-1t6TWx > div[aria-label*="Video"] {
+    display: none;
+}
+
+/* Open Logs */
+#app-mount > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.toolbar-1t6TWx > div > svg[name*="Logs"] {
+    display: none !important;
+}
+
+/* Hidden in settings: Categories, My Account, Biling, Discord Nitro, Gift Inventory, Server Boost, HypeSquad,
+Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links */
+#user-settings-cog-My_Account,
+#user-settings-cog-Billing,
+#user-settings-cog-Discord_Nitro,
+#user-settings-cog-Library_Inventory,
+#user-settings-cog-Nitro_Server_Boost,
+#user-settings-cog-Hypesquad_Online,
+#user-settings-cog-Overlay,
+#user-settings-cog-Keybinds,
+#user-settings-cog-Language,
+#user-settings-cog-changelog,
+#user-settings-cog > div > div:nth-child(22) > div.layer-v9HyYc > div > div > div > div:nth-child(2),
+#user-settings-cog > div > div:nth-child(22) > div.layer-v9HyYc > div > div > div > div:nth-child(5),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(2),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(6),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(8),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(9),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(10),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(11),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(15),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(17),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(23),
+#user-settings > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(25),
+#bd-settings-sidebar > span > div > div:nth-child(4),
+#bd-settings-sidebar > span > div > div:nth-child(7),
+.side-8zPYf6 .header-2RyJ0Y,
+#bd-settings-sidebar .ui-tab-bar-header,
+.socialLinks-3jqNFy,
+.card-1yV8cG
+{
+    display: none;
+}
+
+.side-8zPYf6 .separator-gCa7yv, .ui-tab-bar-separator {
+    display: none !important;
+    background-color: transparent !important;
+    margin: 0 !important;
+    height: 0 !important;
+}
+
+.sidebar-CFHs9e {
+    padding: 20px 6px 0px 20px;;
+}
+
+#bd-settings-sidebar > span > div > div:nth-child(3):before {
+    content: "BBD " !important;
+}
+#bd-settings-sidebar > span > div > div:before {
+    content: "BBD " !important;
+}
+
+/* Re-add roles button in channel settings */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.contentRegion-3nDuYy > div > div > main > div > aside > div > div.flexChild-faoVW3 > div.side-8zPYf6 > div.header-2RyJ0Y,
+/* and in server settings */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.contentRegion-3nDuYy > div > div > main > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6.rolesContent-ZiihSZ > aside > div > div.flexChild-faoVW3 > div > div > div.header-2RyJ0Y {
+    display: block;
+}
+
+/* NewServerTutorial:after */
+#messages > div.container-3hdJzo > div.inner-2OjsH_ > div:nth-child(1) > div.colorHeaderSecondary-3Sp3Ft.size14-e6ZScH.subtitle-1IUuFJ:after {
+    content: " You know Discord, you don't need basic tutorials. HideUselessButtons hidden these.";
+    display: block;
+}
