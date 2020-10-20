@@ -1,0 +1,65 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker    */
+
+.theme-dark { /* CutTheCord Black Theme */
+    --accentcolor:              156,67,73;                  /*    blurple         -    default:    114,137,218     -    hex:    #7289da        */
+    --linkcolor:                0,255,0;                    /*    link            -    default:    0,176,244       -    hex:    #00b0f4        */
+    --mentioncolor:             var(--accentcolor);         /*    yellow          -    default:    250,166,26      -    hex:    #faa61a        */
+
+    --textbrightest:            255,255,255;                /*    white           -    default:    255,255,255     -    hex:    #ffffff        */
+    --textbrighter:             220,221,222;                /*    darker white    -    default:    220,221,222     -    hex:    #dcddde        */
+    --textbright:               185,187,190;                /*    dark white      -    default:    185,187,190     -    hex:    #b9bbbe        */
+    --textdark:                 142,146,151;                /*    bright grey     -    default:    142,146,151     -    hex:    #8e9297        */
+    --textdarker:               114,118,125;                /*    brighter grey   -    default:    114,118,125     -    hex:    #72767d        */
+    --textdarkest:              79,84,92;                   /*    grey            -    default:    79,84,92        -    hex:    #4f545c        */
+
+    --backgroundaccent:         51,51,51;                   /*    darker grey     -    default:    64,68,75        -    hex:    #40444b        */
+    --backgroundprimary:        0,0,0;                      /*    dark grey       -    default:    54,57,63        -    hex:    #36393f        */
+    --backgroundsecondary:      0,0,0;                      /*    darkest grey    -    default:    47,49,54        -    hex:    #2f3136        */
+    --backgroundsecondaryalt:   0,0,0;                      /*    grey-black      -    default:    41,43,47        -    hex:    #292b2f        */
+    --backgroundtertiary:       0,0,0;                      /*    bright black    -    default:    32,34,37        -    hex:    #202225        */
+    --backgroundfloating:       0,0,0;                      /*    brighter black  -    default:    24,25,28        -    hex:    #18191c        */
+
+    --xenolib-background-color: var(--backgroundprimary);
+}
+
+.theme-light { /* Blurple Light Theme */
+    --accentcolor:              177,188,227;                /*    blurple         -    default:    114,137,218     -    hex:    #7289da        */
+    --linkcolor:                var(--accentcolor);         /*    link            -    default:    0,176,244       -    hex:    #00b0f4        */
+    --mentioncolor:             50,168,82;                  /*    yellow          -    default:    250,166,26      -    hex:    #faa61a        */
+
+    --textbrightest:            255,255,255;                /*    white           -    default:    255,255,255     -    hex:    #ffffff        */
+    --textbrighter:             245,245,246;                /*    darker white    -    default:    220,221,222     -    hex:    #dcddde        */
+    --textbright:               234,235,236;                /*    dark white      -    default:    185,187,190     -    hex:    #b9bbbe        */
+    --textdark:                 222,223,224;                /*    bright grey     -    default:    142,146,151     -    hex:    #8e9297        */
+    --textdarker:               210,211,212;                /*    brighter grey   -    default:    114,118,125     -    hex:    #72767d        */
+    --textdarkest:              196,197,198;                /*    grey            -    default:    79,84,92        -    hex:    #4f545c        */
+
+    --backgroundaccent:         var(--backgroundtertiary);  /*    darker grey     -    default:    64,68,75        -    hex:    #40444b        */
+    --backgroundprimary:        114,137,218;                /*    dark grey       -    default:    54,57,63        -    hex:    #36393f        */
+    --backgroundsecondary:      98,109,179;                 /*    darkest grey    -    default:    47,49,54        -    hex:    #2f3136        */
+    --backgroundsecondaryalt:   var(--backgroundsecondary); /*    grey-black      -    default:    41,43,47        -    hex:    #292b2f        */
+    --backgroundtertiary:       74,82,143;                  /*    bright black    -    default:    32,34,37        -    hex:    #202225        */
+    --backgroundfloating:       59,71,112;                  /*    brighter black  -    default:    24,25,28        -    hex:    #18191c        */
+
+    --xenolib-background-color: var(--backgroundprimary);
+}
+
+/* Custom CSS */
+.theme-light .circleIconButton-jET_ig {
+    color: var(--textbrightest);
+}
+.xenoLib-notification-content {
+    background: rgb(var(--xenolib-background-color)) !important;
+}
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: rgba(var(--backgroundaccent), 0.3) !important;
+}
+.theme-dark .scrollableContainer-2NUZem {
+    background-color: rgb(var(--backgroundprimary));
+}
+.theme-light .colorGrey-2DXtkV,
+.theme-light .lookGhost-2Fn_0-.colorGrey-2DXtkV {
+    color: rgb(var(--textdarker)) !important;
+}
