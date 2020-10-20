@@ -1,0 +1,90 @@
+/*
+
+Supported plugins:
+- BetterFormattingRedux
+- CharCounter
+- Edit Uploads
+If you know another plugin that interacts with the upload modal tell me in my Discord server.
+
+*/
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: 0 0 0 transparent;
+    overflow: hidden;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    padding-top: 32px;
+    padding-left: 0;
+}
+.icon-kyxXVr {
+    position: fixed;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px !important;
+    height: 150px !important;
+    background-size: cover;
+}
+.uploadModal-2ifh8j {
+    width: 800px;
+    min-height: 500px;
+    box-shadow: none;
+    box-shadow: none !important;
+}
+.icon-kyxXVr.image-2yrs5j {
+    width: 741px !important;
+    height: 337px !important;
+    margin-top: -46px !important;
+    margin-left: 0px !important;
+}
+.icon-kyxXVr.image-2yrs5j:active {
+    background-size: contain !important;
+}
+label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
+    height: 45px !important;
+    margin-right: 0px;
+    max-width: 160px;
+    padding: 0px 20px;
+    margin-left: 0;
+    cursor: pointer;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+    z-index: 5;
+    margin-left: 156px;
+    width: 450px;
+}
+.comment-4IWttf {
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    width: 380px;
+}
+.comment-4IWttf .scrollableContainer-2NUZem.webkit-HjD9Er {
+    height: 45px !important;
+}
+.filename-ovv3c5 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-weight: 900;
+}
+#EditUploadsEditButton {
+    padding-top: 22px;
+    padding-left: 20px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+.channelTextAreaUpload-3t7EIx .bf-arrow {
+    left: 250px;
+    top: 33px;
+}
+.channelTextAreaUpload-3t7EIx .bf-toolbar.bf-hover:hover .bf-arrow {
+    transform: rotate(0deg);
+}
+.channelTextAreaUpload-3t7EIx .bf-toolbar {
+    padding: 10px 10px 15px 5px;
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    border-radius: 0 0 10px 10px;
+}
