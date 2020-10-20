@@ -1,0 +1,8 @@
+{
+    "name": "BetterImagePreview",
+    "description": "Makes the image preview bigger so you can directly verify your image before sending.",
+    "version": "0.0.1",
+    "author": "TomRdh#5571",
+    "theme": "BetterImagePreview.theme.css",
+    "license": "unknown"
+}
