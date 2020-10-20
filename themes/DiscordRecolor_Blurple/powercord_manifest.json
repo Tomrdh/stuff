@@ -1,0 +1,8 @@
+{
+    "name": "DiscordRecolor (Blurple by TomRdh)",
+    "description": "Dark theme: CutTheCord black theme. Light theme: Blurple theme. Switch between themes in the appearance settings (hope I don't learn you anything).",
+    "version": "1.0.0",
+    "author": "DevilBro#4401",
+    "theme": "DiscordRecolor_Blurple.theme.css",
+    "license": "unknown"
+}
