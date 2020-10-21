@@ -1,7 +1,5 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
 
-/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker    */
-
 .theme-dark { /* CutTheCord Black Theme */
     --accentcolor:              156,67,73;                  /*    blurple         -    default:    114,137,218     -    hex:    #7289da        */
     --linkcolor:                0,255,0;                    /*    link            -    default:    0,176,244       -    hex:    #00b0f4        */
@@ -62,4 +60,12 @@
 .theme-light .colorGrey-2DXtkV,
 .theme-light .lookGhost-2Fn_0-.colorGrey-2DXtkV {
     color: rgb(var(--textdarker)) !important;
+}
+.theme-light .markup-2BOw-j code {
+    background: #2f3136;
+    border-color: #202225;
+}
+.markup-2BOw-j code.inline {
+    background: var(--background-secondary);
+    border-color: var(--background-tertiary);
 }
