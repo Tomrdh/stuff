@@ -84,15 +84,21 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 {
     display: none;
 }
-
-.side-8zPYf6 .separator-gCa7yv, .ui-tab-bar-separator {
+.side-8zPYf6 .separator-gCa7yv,
+.ui-tab-bar-separator {
     display: none !important;
     background-color: transparent !important;
     margin: 0 !important;
     height: 0 !important;
 }
+.scroller-305q3I .side-8zPYf6 .header-2RyJ0Y {
+    display: flex;
+}
+.defaultLayoutStyle-qWB_fd {
+    padding-top: 20px !important;
+}
 .sidebar-CFHs9e {
-    padding: 20px 6px 0px 20px;;
+    padding: 20px 6px 0px 20px;
 }
 /* Useless BD settings: Emojis (not everyone can see), Custom CSS (it's better to place custom CSS in a theme file) */
 #bd-settings-sidebar > span > div > div:before {
