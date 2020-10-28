@@ -100,9 +100,16 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 .sidebar-CFHs9e {
     padding: 20px 6px 0px 20px;
 }
-/* Useless BD settings: Emojis (not everyone can see), Custom CSS (it's better to place custom CSS in a theme file) */
+/* Useless BBD settings: Emojis (not everyone can see), Custom CSS (it's better to place custom CSS in a theme file) */
 #bd-settings-sidebar > span > div > div:before {
     content: "BD " !important;
+}
+/* New BD fixes (now Emotes and custom CSS can be disabled, yesss) */
+.bd-sidebar-header {
+    display: none;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(26):before {
+    content: "BD "
 }
 
 /* Re-add roles button in channel settings */
@@ -110,4 +117,16 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 /* and in server settings */
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.contentRegion-3nDuYy > div > div > main > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStart-H-X2h-.noWrap-3jynv6.rolesContent-ZiihSZ > aside > div > div.flexChild-faoVW3 > div > div > div.header-2RyJ0Y {
     display: block;
+}
+
+/* Bye bye tutorials */
+.card-3RzMcx {
+    display: none;
+}
+.subtitle-2UIIw0 {
+    font-size: 0;
+}
+.subtitle-2UIIw0:after {
+    font-size: 14px;
+    content: "This is the beginning of this server. A beginning without tutorials!"
 }
