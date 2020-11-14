@@ -14,6 +14,8 @@ Top Bar             - Help button
 Settings            - My Account and other things in sidebar
                     - Same for settings contextmenu
 
+Auth Screen         - QR Code Login
+
 SHORTCUTS:
 
 Ctrl + E            : Emoji picker
@@ -27,8 +29,9 @@ Ctrl + U            : Members list
 Ctrl + R            : Reload
 Ctrl + /            : All shortcuts
 
-*/
+No way              : QR Code Login
 
+*/
 
 /* Nitro Gift, GIF picker and Emoji picker */
 .buttons-3JBrkn button[aria-label*="gift"],
@@ -127,4 +130,12 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 .subtitle-2UIIw0:after {
     font-size: 14px;
     content: "This is the beginning of this server. A beginning without tutorials!"
+}
+/* QR Code Login */
+.qrLogin-1AOZMt,
+.verticalSeparator-3huAjp {
+    display: none;
+}
+.authBoxExpanded-2jqaBe {
+    width: 480px;
 }
