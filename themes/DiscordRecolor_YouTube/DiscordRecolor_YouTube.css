@@ -1,0 +1,114 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/CFFD_Core.css);
+
+@font-face {
+    src: url(https://tomrdh.github.io/stuff/fonts/YouTube%20Sans/youtube-sans-medium.ttf);
+    font-family: "YouTube Sans Medium";
+}
+@font-face {
+    src: url(https://tomrdh.github.io/stuff/fonts/YouTube%20Sans/youtube-sans-bold.ttf);
+    font-family: "YouTube Sans Bold";
+}
+@font-face {
+    src: url(https://tomrdh.github.io/stuff/fonts/YouTube%20Sans/youtube-sans-light.ttf);
+    font-family: "YouTube Sans Light";
+}
+
+:root {
+    --cf:                       YouTube Sans, "YouTube Sans Medium", "YouTube Sans Light", "YouTube Sans Bold", sans-serif;
+
+    --linkcolor:                62,156,255;                 /*    link             -     default:    0,176,244        -     hex:    #00b0f4        */
+    --mentioncolor:             var(--accentcolor);         /*    yellow           -     default:    250,166,26       -     hex:    #faa61a        */
+}
+
+.theme-dark {
+    --accentcolor:              204,0,0;                    /*    blurple          -     default:    114,137,218      -     hex:    #7289da        */
+    
+    --textbrightest:            255,255,255;                /*    white            -     default:    255,255,255      -     hex:    #ffffff        */
+    --textbrighter:             222,222,222;                /*    darker white     -     default:    220,221,222      -     hex:    #dcddde        */
+    --textbright:               185,185,185;                /*    dark white       -     default:    185,187,190      -     hex:    #b9bbbe        */
+    --textdark:                 140,140,140;                /*    bright grey      -     default:    142,146,151      -     hex:    #8e9297        */
+    --textdarker:               115,115,115;                /*    brighter grey    -     default:    114,118,125      -     hex:    #72767d        */
+    --textdarkest:              80,80,80;                   /*    grey             -     default:    79,84,92         -     hex:    #4f545c        */
+
+    --backgroundaccent:         40,40,40;                   /*    darker grey      -     default:    64,68,75         -     hex:    #40444b        */
+    --backgroundprimary:        33,33,33;                   /*    dark grey        -     default:    54,57,63         -     hex:    #36393f        */
+    --backgroundsecondary:      24,24,24;                   /*    darkest grey     -     default:    47,49,54         -     hex:    #2f3136        */
+    --backgroundsecondaryalt:   22,22,22;                   /*    grey-black       -     default:    41,43,47         -     hex:    #292b2f        */
+    --backgroundtertiary:       15,15,15;                   /*    bright black     -     default:    32,34,37         -     hex:    #202225        */
+    --backgroundfloating:       var(--backgroundaccent);    /*    brighter black   -     default:    24,25,28         -     hex:    #18191c        */
+}
+
+.theme-light {
+    --accentcolor:              255,0,0;                    /*    blurple          -     default:    114,137,218      -     hex:    #7289da        */
+    
+    --textbrightest:            0,0,0;                      /*    white            -     default:    255,255,255      -     hex:    #ffffff        */
+    --textbrighter:             33,33,33;                   /*    darker white     -     default:    220,221,222      -     hex:    #dcddde        */
+    --textbright:               78,78,78;                   /*    dark white       -     default:    185,187,190      -     hex:    #b9bbbe        */
+    --textdark:                 111,111,111;                /*    bright grey      -     default:    142,146,151      -     hex:    #8e9297        */
+    --textdarker:               139,139,139;                /*    brighter grey    -     default:    114,118,125      -     hex:    #72767d        */
+    --textdarkest:              104,104,104;                /*    grey             -     default:    79,84,92         -     hex:    #4f545c        */
+
+    --backgroundaccent:         255,255,255;                /*    darker grey      -     default:    64,68,75         -     hex:    #40444b        */
+    --backgroundprimary:        240,240,240;                /*    dark grey        -     default:    54,57,63         -     hex:    #36393f        */
+    --backgroundsecondary:      235,235,235;                /*    darkest grey     -     default:    47,49,54         -     hex:    #2f3136        */
+    --backgroundsecondaryalt:   218,218,218;                /*    grey-black       -     default:    41,43,47         -     hex:    #292b2f        */
+    --backgroundtertiary:       225,225,225;                /*    bright black     -     default:    32,34,37         -     hex:    #202225        */
+    --backgroundfloating:       var(--backgroundaccent);    /*    brighter black   -     default:    24,25,28         -     hex:    #18191c        */
+}
+
+/* Custom CSS */
+.lookFilled-1Gx00P {
+    border-radius: 2px;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: rgb(var(--linkcolor));
+    background: none !important;
+    border: solid 1px rgb(var(--linkcolor));
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background: none !important;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: rgb(var(--accentcolor));
+}
+.reaction-1hd86g {
+    background: rgb(var(--backgroundsecondaryalt));
+    border: solid 1px rgb(var(--backgroundaccent));
+    border-radius: 2px;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    border-color: rgb(var(--linkcolor));
+    color: rgb(var(--linkcolor));
+    background: #0000;
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+    color: rgb(var(--linkcolor));
+}
+.wordmarkWindows-1v0lYD {
+    color: rgb(var(--textbright));
+}
+.theme-light .wordmarkWindows-1v0lYD {
+    color: rgb(var(--textbrightest));
+}
+.mentioned-xhSam7:before {
+    background-color: rgb(var(--accentcolor));
+}
+.xenolib-notification-content {
+    background: rgb(var(--backgroundaccent));
+}
+#app-mount .tooltipBlack-PPG47z,
+#app-mount .tooltipGrey-1hnvTt {
+    background-color: #000;
+    color: #fff;
+}
+#app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border-top-color: #000;
+}
+.menu-3sdvDG {
+    background-color: rgb(var(--backgroundtertiary));
+}
