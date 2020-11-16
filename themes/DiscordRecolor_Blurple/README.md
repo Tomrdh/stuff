@@ -19,4 +19,4 @@
 
 ### Light Theme
 
-![LightTheme.png](https://cdn.discordapp.com/attachments/702611641530843186/777708402498994196/unknown.png)
+![LightTheme.png](https://cdn.discordapp.com/attachments/702611641530843186/777709431798104064/unknown.png)
