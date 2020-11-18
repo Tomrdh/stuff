@@ -65,24 +65,23 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 #user-settings-cog-changelog,
 #user-settings-cog > div > div:nth-child(22) > div.layer-v9HyYc > div > div > div > div:nth-child(2),
 #user-settings-cog > div > div:nth-child(22) > div.layer-v9HyYc > div > div > div > div:nth-child(5),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(2),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(6),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(8),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(9),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(10),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(11),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(15),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(17),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(23),
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(25),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(2),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(6),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(8),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(9),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(10),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(11),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(15),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(17),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(21),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(23),
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(25),
 #bd-settings-sidebar > span > div > div:nth-child(4),
 #bd-settings-sidebar > span > div > div:nth-child(7),
 .side-8zPYf6 .header-2RyJ0Y,
 #bd-settings-sidebar .ui-tab-bar-header,
 .socialLinks-3jqNFy,
-.card-1yV8cG
-{
+.card-1yV8cG {
     display: none;
 }
 .side-8zPYf6 .separator-gCa7yv,
@@ -102,14 +101,14 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
     padding: 20px 6px 0px 20px;
 }
 /* Useless BBD settings: Emojis (not everyone can see), Custom CSS (it's better to place custom CSS in a theme file) */
-#bd-settings-sidebar > span > div > div:before {
+.platform-win #bd-settings-sidebar > span > div > div:before {
     content: "BD " !important;
 }
 /* New BD fixes (now Emotes and custom CSS can be disabled, yesss) */
 .bd-sidebar-header {
     display: none;
 }
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(26):before {
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div > div.sidebarRegion-VFTUkN > div > nav > div > div:nth-child(26):before {
     content: "BD ";
 }
 
