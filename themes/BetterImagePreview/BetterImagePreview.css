@@ -69,10 +69,13 @@ label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
     left: 20px;
     font-weight: 900;
 }
-#EditUploadsEditButton {
+#EditUploadsEditButton,
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .subtitle-26nRzM {
     padding-top: 22px;
     padding-left: 20px;
     font-weight: 400;
+}
+#EditUploadsEditButton {
     opacity: 0.75;
 }
 .channelTextAreaUpload-3t7EIx .bf-arrow {
