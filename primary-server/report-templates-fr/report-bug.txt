@@ -1,0 +1,11 @@
+**[SIGNALEMENT] TYPE: Bug**
+
+Description courte du bug :
+
+Description détaillée du bug :
+
+Ce qui est censé se produire :
+
+Ce qui arrive réellement :
+
+Fichiers (facultatif, mais ça peut aider à comprendre) :
