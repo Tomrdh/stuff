@@ -1,0 +1,7 @@
+**[SIGNALEMENT] TYPE: Utilisateur**
+
+Identifiant de l'utilisateur (ID) :
+
+Raison :
+
+Preuve : (un screenshot, un lien vers le message, etc…)
