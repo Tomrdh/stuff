@@ -7,6 +7,7 @@ Chat Window         - New Server Basic Tutorials
 Chat Bar            - Nitro Gift
                     - Gif picker
                     - Emoji picker
+                    - Sticker picker
 
 Top Bar             - Help button
                     - Open Logs
@@ -20,6 +21,7 @@ SHORTCUTS:
 
 Ctrl + E            : Emoji picker
 Ctrl + G            : Gif picker
+Ctrl + S            : Sticker picker
 
 Ctrl + Shift + H    : Get help
 
@@ -37,7 +39,8 @@ No way              : QR Code Login
 .buttons-3JBrkn button[aria-label*="gift"],
 .buttons-3JBrkn button[aria-label*="regalo"],
 .buttons-3JBrkn button[aria-label*="emoji"],
-.buttons-3JBrkn button[aria-label*="GIF"] {
+.buttons-3JBrkn button[aria-label*="GIF"],
+.buttons-3JBrkn button[aria-label*="sticker"] {
     display: none;
 }
 /* Get Help */
