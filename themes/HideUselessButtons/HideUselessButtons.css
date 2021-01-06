@@ -142,3 +142,9 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 .authBoxExpanded-2jqaBe {
     width: 480px;
 }
+/* Typing Dots (reduced motion) */
+.reduce-motion .base-gE7OpD .ellipsis-19qdx6,
+.reduce-motion .dots-3Bkt3k,
+.reduce-motion .dots-3Bkt3k circle {
+    display: none !important;
+}
