@@ -100,8 +100,8 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
     padding: 20px 6px 0px 20px;
 }
 /* Useless BBD settings: Emojis (not everyone can see), Custom CSS (it's better to place custom CSS in a theme file) */
-.platform-win #bd-settings-sidebar > span > div > div:before {
-    content: "BD " !important;
+.platform-win #bd-settings-sidebar > span > div > div:nth-child(3):before {
+    content: "BBD " !important;
 }
 /* New BD fixes (now Emotes and custom CSS can be disabled, yesss) */
 .bd-sidebar-header {
