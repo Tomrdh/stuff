@@ -4,6 +4,7 @@ Supported plugins:
 - BetterFormattingRedux
 - CharCounter
 - Edit Uploads
+- FriendNotifications (BugFix)
 If you know another plugin that interacts with the upload modal tell me in my Discord server.
 
 */
@@ -41,7 +42,7 @@ If you know another plugin that interacts with the upload modal tell me in my Di
 .icon-kyxXVr.image-2yrs5j:active {
     background-size: contain !important;
 }
-label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
+.uploadModal-2ifh8j label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
     height: 45px !important;
     margin-right: 0px;
     max-width: 160px;
