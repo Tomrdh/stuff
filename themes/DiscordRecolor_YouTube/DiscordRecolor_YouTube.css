@@ -112,3 +112,6 @@
 .menu-3sdvDG {
     background-color: rgb(var(--backgroundtertiary));
 }
+.repliedMessage-VokQwo:before {
+    border-color: rgb(var(--textdarkest));
+}
