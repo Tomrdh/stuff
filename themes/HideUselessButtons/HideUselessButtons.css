@@ -143,9 +143,12 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 .reduce-motion .dots-3Bkt3k circle {
     display: none !important;
 }
-
 /* Remove Context Menus items */
 #user-context-call,
 #user-context-invite-to-server {
     display: none;
+}
+/* Save performance with XenoLib */
+.reduce-motion .xenoLib-notification-loadbar {
+    display: none !important;
 }
