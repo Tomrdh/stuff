@@ -149,7 +149,11 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
     display: none;
 }
 /* Save performance with toasts */
-.reduce-motion .xenoLib-notification-loadbar,
-.reduce-motion .bar-95Sdw1 {
+.xenoLib-notification-loadbar,
+.bar-95Sdw1 {
     display: none !important;
+}
+.app-focused.full-motion .xenoLib-notification-loadbar,
+.app-focused.full-motion .bar-95Sdw1 {
+    display: flex !important;
 }
