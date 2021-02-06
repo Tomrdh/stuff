@@ -148,7 +148,8 @@ Overlay, Keybinds, Streamer Mode, Change Log, Emotes, Custom CSS, Social Links *
 #user-context-invite-to-server {
     display: none;
 }
-/* Save performance with XenoLib */
-.reduce-motion .xenoLib-notification-loadbar {
+/* Save performance with toasts */
+.reduce-motion .xenoLib-notification-loadbar,
+.reduce-motion .bar-95Sdw1 {
     display: none !important;
 }
