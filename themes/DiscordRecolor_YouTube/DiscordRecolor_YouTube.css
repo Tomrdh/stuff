@@ -49,12 +49,12 @@
     --textdarker:               139,139,139;                /*    brighter grey    -     default:    114,118,125      -     hex:    #72767d        */
     --textdarkest:              104,104,104;                /*    grey             -     default:    79,84,92         -     hex:    #4f545c        */
 
-    --backgroundaccent:         255,255,255;                /*    darker grey      -     default:    64,68,75         -     hex:    #40444b        */
-    --backgroundprimary:        240,240,240;                /*    dark grey        -     default:    54,57,63         -     hex:    #36393f        */
-    --backgroundsecondary:      235,235,235;                /*    darkest grey     -     default:    47,49,54         -     hex:    #2f3136        */
-    --backgroundsecondaryalt:   218,218,218;                /*    grey-black       -     default:    41,43,47         -     hex:    #292b2f        */
-    --backgroundtertiary:       225,225,225;                /*    bright black     -     default:    32,34,37         -     hex:    #202225        */
-    --backgroundfloating:       var(--backgroundaccent);    /*    brighter black   -     default:    24,25,28         -     hex:    #18191c        */
+    --backgroundaccent:         230,230,230;                /*    darker grey      -     default:    64,68,75         -     hex:    #40444b        */
+    --backgroundprimary:        255,255,255;                /*    dark grey        -     default:    54,57,63         -     hex:    #36393f        */
+    --backgroundsecondary:      245,245,245;                /*    darkest grey     -     default:    47,49,54         -     hex:    #2f3136        */
+    --backgroundsecondaryalt:   250,250,250;                /*    grey-black       -     default:    41,43,47         -     hex:    #292b2f        */
+    --backgroundtertiary:       235,235,235;                /*    bright black     -     default:    32,34,37         -     hex:    #202225        */
+    --backgroundfloating:       240,240,240;                /*    brighter black   -     default:    24,25,28         -     hex:    #18191c        */
 }
 
 /* Custom CSS */
