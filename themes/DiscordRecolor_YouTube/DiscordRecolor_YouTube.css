@@ -115,3 +115,6 @@
 .repliedMessage-VokQwo:before {
     border-color: rgb(var(--textdarkest));
 }
+#app-mount .xenoLib-notification-content {
+    background-color: rgb(var(--backgroundfloating)) !important;
+}
